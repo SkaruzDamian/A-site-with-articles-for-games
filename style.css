@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    background-color: #e1e9ed;
+}
+body{
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(255, 255, 255, 0.973);
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: bold;
+}
+body a {
+    border:none;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    color: #007cbf;
+    margin-right: 25px;
+    margin-left: 25px;
+    font-weight: bold;
+}
+body input {
+    margin-top: 20px;
+}
+.content2{
+    padding-bottom: 20px;
+    background-color: #000000;
+    color: white;
+    overflow: auto;
+}
+.underHeader{
+    color:white;
+}
+header a {
+    border:none;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    margin-right: 25px;
+    margin-left: 25px;
+    
+}
+.color{
+    color:white;
+}
+header{
+    background-color: #007cbf;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;   
+    font-weight: bold;
+}
+
+.content1{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: #000000;
+}
+.line {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.mainItem {
+    margin: 1%;
+    width: 25vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Wyśrodkowanie elementów w poziomie */
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.itemimg {
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Wyśrodkowanie obrazka w poziomie */
+    text-align: center;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center; /* Wyśrodkowanie kontenera w poziomie */
+}
+
+.requests{
+    background-color: red;
+}
+
+.mainFavContainer img{
+    max-width: 20vw;
+}
+.form {
+    margin: 50px auto;
+    width: 300px;
+    padding: 30px 25px;
+    background: white;
+   }
+   h1.login-title {
+    color: #666;
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+   }
+   .login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 25px;
+    width: calc(100%- 23px);
+   }
+   .login-input:focus {
+    border-color:#6e8095;
+    outline: none; 
+}
+   .login-button {
+    color: #fff;
+    background: #55a1ff;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer; 
+}
+   .link {
+    color: #666;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+   }
+   .link a {
+    color: #666; 
+}
+   h3 {
+    font-weight: normal;
+    text-align: center;
+   }
+   
